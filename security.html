@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartHome Dashboard</title>
+    <link rel="stylesheet" href="securityStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="sidebar-item room1"><a href="room1.html">Room 1</a></div>
+        <div class="sidebar-item room1"><a href="room2.html">Room 2</a></div>
+        <div class="sidebar-item room1"><a href="room3.html">Room 3</a></div>
+        <div class="sidebar-item room1"><a href="index.html">Hall</a></div>
+        <div class="sidebar-item room1"><a href="kitchen.html">Kitchen</a></div>
+        <div class="sidebar-item room1">
+          <a href="entireSpace.html">Entire Space</a>
+        </div>
+        <div class="sidebar-item security">
+          <a href="security.html"
+            ><abbr title="Security"
+              ><i class="bi bi-shield-fill-check"></i></abbr
+          ></a>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="card">
+            <label
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    cursor: pointer;
+                  "
+                >
+                  Lock Complete Home
+                  <span class="toggle theme">
+                    <input type="checkbox" />
+                    <span class="slider">
+                      <span class="sun">☀</span>
+                      <span class="moon">🌙</span>
+                    </span>
+                  </span>
+                </label>
+        </div>
+        
+      </div>
+
+      <div class="status"></div>
+    </div>
+  </body>
+</html>
