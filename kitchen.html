@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmartHome Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+
+    
+    <div class="main">
+      <div class="sidebar">
+        <div class="sidebar-item room1"><a href="room1.html">Room 1</a></div>
+        <div class="sidebar-item room1"><a href="room2.html">Room 2</a></div>
+        <div class="sidebar-item room1"><a href="room3.html">Room 3</a></div>
+        <div class="sidebar-item room1"><a href="index.html">Hall</a></div>
+        <div class="sidebar-item room1"><a href="kitchen.html">Kitchen</a></div>
+        <div class="sidebar-item room1"><a href="entireSpace.html">Entire Space</a></div>
+      </div>
+      <div class="sidebar2">
+
+      </div>
+      <div class="main-content">
+        <h2 class="main-heading">Kitchen </h2>
+        <div class="main-card">
+          <div class="card fan">
+            <span class="card-heading"> <i class="bi bi-fan"></i>Fan </span>
+            <ul>
+              <li>
+                <label
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    cursor: pointer;
+                  "
+                >
+                  Fan 1
+                  <span class="toggle theme">
+                    <input type="checkbox" />
+                    <span class="slider">
+                      <span class="sun">☀</span>
+                      <span class="moon">🌙</span>
+                    </span>
+                  </span>
+                </label>
+              </li>
+              <li>
+                <label
+                  style="
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    cursor: pointer;
+                  "
+                >
+                  Fan 2
+                  <span class="toggle theme">
+                    <input type="checkbox" />
+                    <span class="slider">
+                      <span class="sun">☀</span>
+                      <span class="moon">🌙</span>
+                    </span>
+                  </span>
+                </label>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card light">
+            <span class="card-heading">
+              <i class="bi bi-lamp-fill"></i>
+              <span>Lights</span>
+            </span>
+
+            <div class="light-inner">
+              <label
+                style="
+                  display: flex;
+                  align-items: center;
+                  gap: 8px;
+                  cursor: pointer;
+                "
+              >
+                Light 1
+                <span class="toggle theme">
+                  <input type="checkbox" />
+                  <span class="slider">
+                    <span class="sun">☀</span>
+                    <span class="moon">🌙</span>
+                  </span>
+                </span>
+              </label>
+            </div>
+            <div class="light-inner">
+              <label
+                style="
+                  display: flex;
+                  align-items: center;
+                  gap: 8px;
+                  cursor: pointer;
+                "
+              >
+                Light 2
+                <span class="toggle theme">
+                  <input type="checkbox" />
+                  <span class="slider">
+                    <span class="sun">☀</span>
+                    <span class="moon">🌙</span>
+                  </span>
+                </span>
+              </label>
+            </div>
+            <div class="light-inner">
+              <label
+                style="
+                  display: flex;
+                  align-items: center;
+                  gap: 8px;
+                  cursor: pointer;
+                "
+              >
+                Light 3
+                <span class="toggle theme">
+                  <input type="checkbox" />
+                  <span class="slider">
+                    <span class="sun">☀</span>
+                    <span class="moon">🌙</span>
+                  </span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div class="card">
+            <span class="card-heading">
+              <i class="bi bi-square-half"></i>
+              <span>AC</span>
+            </span>
+
+            <label
+              style="
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                cursor: pointer;
+              "
+            >
+              Turn On
+              <span class="toggle theme">
+                <input type="checkbox" />
+                <span class="slider">
+                </span>
+              </span>
+            </label>
+
+
+          </div>
+          <div class="card">
+            <span class="card-heading">
+              <i class="bi bi-router"></i>
+              <span>Music</span>
+            </span>
+            <label
+              style="
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                cursor: pointer;
+              "
+            >
+              Turn On
+              <span class="toggle theme">
+                <input type="checkbox" />
+                <span class="slider">
+                </span>
+              </span>
+            </label>
+
+            <span>Volume: </span>
+            <input type="range" min="0" max="100">
+
+          </div>
+          <div class="card">
+            <span class="card-heading">
+              <i class="bi bi-floppy2-fill"></i>
+              <span>Refrigerator</span>
+            </span>
+
+            <label
+              style="
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                cursor: pointer;
+              "
+            >
+              Turn On
+              <span class="toggle theme">
+                <input type="checkbox" />
+                <span class="slider">
+                </span>
+              </span>
+            </label>
+          </div>
+          <div class="card">
+            <span class="card-heading">
+              <i class="bi bi-floppy2-fill"></i>
+              <span>Mircowave</span>
+            </span>
+
+            <label
+              style="
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                cursor: pointer;
+              "
+            >
+              Turn On
+              <span class="toggle theme">
+                <input type="checkbox" />
+                <span class="slider">
+                </span>
+              </span>
+            </label>
+          </div>
+          <div class="card">
+            <span class="card-heading">
+              <i class="bi bi-floppy2-fill"></i>
+              <span>Chimney</span>
+            </span>
+
+            <label
+              style="
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                cursor: pointer;
+              "
+            >
+              Turn On
+              <span class="toggle theme">
+                <input type="checkbox" />
+                <span class="slider">
+                </span>
+              </span>
+            </label>
+          </div>
+        </div>
+
+         <div class="guide">
+          <p style="color: aliceblue; text-align: center; font-size: 2rem;">Guide
+            <i class="bi bi-arrow-down-circle"></i>
+          </p>
+          
+          <h2>Welcome to Your Smart Home Dashboard</h2>
+          <p class="guide-begin">
+            Control your entire space easily from here. Here's how to get
+            started:
+          </p>
+
+          <ul>
+            <li>
+              <strong>Select a Room</strong> — Click any room name on the left
+              sidebar (Hall, Kitchen, Room 1, etc.) to view and control devices
+              in that area.
+            </li>
+            <li>
+              <strong>Toggle Devices</strong> — Use the switches (○ / ●) to turn
+              Fans, Lights, AC, Music or TV on/off instantly.
+            </li>
+            <li>
+              <strong>Adjust Settings</strong> — Drag the sliders for fan speed,
+              light brightness (if added later), or music/TV volume.
+            </li>
+            <li>
+              <strong>Control Everything</strong> — Choose "<strong
+                >Entire Space</strong
+              >" from the sidebar to turn on/off or adjust multiple rooms at
+              once.
+            </li>
+            <li>
+              <strong>Real-time Status</strong> — The dashboard updates
+              automatically — no refresh needed!
+            </li>
+          </ul>
+
+          <p>
+            <strong>Pro Tip:</strong> Try turning on "Music" + dimming "Lights"
+            for a cozy evening vibe.
+          </p>
+
+        </div>
+      </div>
+
+      <div class="status">
+
+        
+      </div>
+    </div>
+  </body>
+</html>
